@@ -1,0 +1,96 @@
+@import "@fontsource/bungee/latin-400.css";
+@import "@fontsource/bungee-shade/latin-400.css";
+@import "tailwindcss";
+
+/* Painted Route Board — car rapide × truck-art sign painting. */
+@theme {
+  --color-sun: #f5b700; /* car-rapide body yellow: the shell */
+  --color-sun-deep: #dfa500;
+  --color-sun-soft: #fff0c2;
+  --color-route: #1c3faa; /* ultramarine route plate */
+  --color-route-deep: #142f82;
+  --color-ink: #141414; /* sign black: text, bottom bar, primary buttons */
+  --color-cream: #fffdf5; /* work ground */
+  --color-paper: #fbf3dc; /* recessed wells */
+  --color-card: #ffffff;
+  --color-line: #e6d9b0;
+  --color-muted: #4a4636; /* warm secondary text, 9:1 on cream */
+  --color-signal: #d7261e; /* pot numerals, overdue */
+  --color-signal-soft: #fbe1de;
+  --color-paid: #0f8a4b; /* paid ticks only */
+  --color-paid-soft: #dcf0e3;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+  --font-sign: "Bungee", system-ui, sans-serif;
+  --font-sign-shade: "Bungee Shade", "Bungee", system-ui, sans-serif;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  background: var(--color-cream);
+  scrollbar-color: #c9b77f var(--color-cream);
+  accent-color: var(--color-route);
+}
+body {
+  margin: 0;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  caret-color: var(--color-route);
+  -webkit-tap-highlight-color: transparent;
+}
+::selection {
+  background: var(--color-sun);
+  color: var(--color-ink);
+}
+h1,
+h2 {
+  font-family: var(--font-sign);
+  font-weight: 400;
+  letter-spacing: 0;
+  text-wrap: balance;
+}
+:focus-visible {
+  outline: 3px solid var(--color-route);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+.on-dark :focus-visible,
+.on-dark:focus-visible {
+  outline-color: var(--color-sun);
+}
+.num {
+  font-variant-numeric: tabular-nums;
+}
+.amt {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.sign {
+  font-family: var(--font-sign);
+  font-weight: 400;
+}
+.sign-shade {
+  font-family: var(--font-sign-shade);
+  font-weight: 400;
+}
+
+/* Signature motion: the pot slides stop to stop; a paid tick lands. */
+.pot-marker {
+  transition: transform 0.9s var(--ease-out-expo);
+}
+@keyframes land {
+  from { transform: scale(0.6) rotate(-12deg); opacity: 0.3; }
+  to { transform: scale(1) rotate(0); opacity: 1; }
+}
+.pop { animation: land 0.5s var(--ease-out-expo); }
+
+.safe-bottom { padding-bottom: max(0.5rem, env(safe-area-inset-bottom)); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+/* Pot numerals: solid sign lettering on phones (sunlight), painted drop-shade from sm up. */
+.pot-num { font-family: var(--font-sign); font-weight: 400; }
+@media (min-width: 640px) { .pot-num { font-family: var(--font-sign-shade); } }

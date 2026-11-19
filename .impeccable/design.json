@@ -1,0 +1,493 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-19T05:40:54.017Z",
+  "title": "Design System: TontineZap",
+  "extensions": {
+    "colorMeta": {
+      "sun": {
+        "role": "primary",
+        "displayName": "Car-Rapide Yellow",
+        "canonical": "#f5b700",
+        "oklch": "oklch(81.4% 0.167 83.9)",
+        "tonalRamp": [
+          "#170700",
+          "#3b1b00",
+          "#633200",
+          "#894f00",
+          "#ad7400",
+          "#c69e4a",
+          "#dfc89b",
+          "#f5eee0"
+        ]
+      },
+      "sun-deep": {
+        "role": "primary",
+        "displayName": "Deep Body Yellow",
+        "canonical": "#dfa500",
+        "oklch": "oklch(75.6% 0.155 83.2)",
+        "tonalRamp": [
+          "#160700",
+          "#3a1c00",
+          "#623400",
+          "#875100",
+          "#ab7500",
+          "#c49f53",
+          "#dec89f",
+          "#f5eee1"
+        ]
+      },
+      "sun-soft": {
+        "role": "primary",
+        "displayName": "Yellow Wash",
+        "canonical": "#fff0c2",
+        "oklch": "oklch(95.6% 0.061 92.1)",
+        "tonalRamp": [
+          "#0e0b02",
+          "#2b230c",
+          "#4a3f1b",
+          "#6a5d33",
+          "#8d8057",
+          "#aea488",
+          "#d0caba",
+          "#f0eee9"
+        ]
+      },
+      "route": {
+        "role": "secondary",
+        "displayName": "Ultramarine Route Blue",
+        "canonical": "#1c3faa",
+        "oklch": "oklch(41.7% 0.176 265.2)",
+        "tonalRamp": [
+          "#020825",
+          "#091d58",
+          "#163490",
+          "#2c53bf",
+          "#4e79e4",
+          "#81a3ef",
+          "#b5cbf8",
+          "#e8effd"
+        ]
+      },
+      "route-deep": {
+        "role": "secondary",
+        "displayName": "Deep Ultramarine",
+        "canonical": "#142f82",
+        "oklch": "oklch(34.5% 0.143 265.4)",
+        "tonalRamp": [
+          "#030921",
+          "#0e204f",
+          "#1e3982",
+          "#3657ad",
+          "#587cd2",
+          "#87a4e2",
+          "#b9cbef",
+          "#e9effb"
+        ]
+      },
+      "signal": {
+        "role": "tertiary",
+        "displayName": "Signal Red",
+        "canonical": "#d7261e",
+        "oklch": "oklch(56.7% 0.212 28.8)",
+        "tonalRamp": [
+          "#230000",
+          "#530000",
+          "#890000",
+          "#b70000",
+          "#e03b2f",
+          "#f07f70",
+          "#fbb7ac",
+          "#ffe9e5"
+        ]
+      },
+      "signal-soft": {
+        "role": "tertiary",
+        "displayName": "Signal Wash",
+        "canonical": "#fbe1de",
+        "oklch": "oklch(93.0% 0.029 25.6)",
+        "tonalRamp": [
+          "#0f0909",
+          "#2c211f",
+          "#4d3b39",
+          "#6d5855",
+          "#907a78",
+          "#b1a09e",
+          "#d2c8c7",
+          "#f1eeed"
+        ]
+      },
+      "paid": {
+        "role": "tertiary",
+        "displayName": "Truck Green",
+        "canonical": "#0f8a4b",
+        "oklch": "oklch(55.7% 0.138 153.4)",
+        "tonalRamp": [
+          "#001103",
+          "#002f0d",
+          "#00511d",
+          "#007335",
+          "#2e9659",
+          "#75b689",
+          "#b1d5bb",
+          "#e7f2e9"
+        ]
+      },
+      "paid-soft": {
+        "role": "tertiary",
+        "displayName": "Paid Wash",
+        "canonical": "#dcf0e3",
+        "oklch": "oklch(93.7% 0.027 157.4)",
+        "tonalRamp": [
+          "#080c0a",
+          "#1d2721",
+          "#35443b",
+          "#516358",
+          "#74857a",
+          "#9ca8a0",
+          "#c5cdc8",
+          "#edefed"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Sign Black",
+        "canonical": "#141414",
+        "oklch": "oklch(19.1% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#808080",
+          "#a4a4a4",
+          "#cacaca",
+          "#eeeeee"
+        ]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Cream Ground",
+        "canonical": "#fffdf5",
+        "oklch": "oklch(99.3% 0.011 95.2)",
+        "tonalRamp": [
+          "#0c0b09",
+          "#252420",
+          "#41403a",
+          "#5f5e57",
+          "#828079",
+          "#a6a5a0",
+          "#cbcac7",
+          "#efeeed"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper Well",
+        "canonical": "#fbf3dc",
+        "oklch": "oklch(96.4% 0.031 91.0)",
+        "tonalRamp": [
+          "#0d0b06",
+          "#272419",
+          "#453f2f",
+          "#645d4a",
+          "#87806c",
+          "#a9a496",
+          "#cdcac2",
+          "#efeeec"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Enamel White",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#808080",
+          "#a4a4a4",
+          "#cacaca",
+          "#eeeeee"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Rule Tan",
+        "canonical": "#e6d9b0",
+        "oklch": "oklch(88.6% 0.056 92.5)",
+        "tonalRamp": [
+          "#0e0b03",
+          "#2a240f",
+          "#493f1f",
+          "#695d38",
+          "#8b805b",
+          "#ada48a",
+          "#cfcabb",
+          "#f0eee9"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Warm Muted",
+        "canonical": "#4a4636",
+        "oklch": "oklch(39.3% 0.026 95.7)",
+        "tonalRamp": [
+          "#0c0b07",
+          "#26241b",
+          "#434032",
+          "#625e4d",
+          "#858070",
+          "#a8a598",
+          "#cccbc3",
+          "#efeeec"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Home hero headline on yellow; the default face of h1/h2."
+      },
+      "pot-numeral": {
+        "displayName": "Pot Numeral",
+        "purpose": "Collected amount in signal red; solid Bungee on phones, Bungee Shade from 640px (2.4rem → 3.4rem)."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Circle name in the yellow title band (1.2rem → 1.5rem); Create title 1.75rem."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section and plate headings; route blue on cream for list sections."
+      },
+      "plate-label": {
+        "displayName": "Plate Label",
+        "purpose": "Route plate title in yellow; receipt numbers at 0.7rem in muted."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Everything read, typed or tapped; button labels at 700."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "One-line amount · time · proof under a member name, in muted."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels, hints and chips; tab labels at 0.75rem bold."
+      }
+    },
+    "shadows": [
+      {
+        "name": "pot-halo",
+        "value": "0 0 0 5px rgb(245 183 0 / 0.35)",
+        "purpose": "The lit pot disc on the route plate only. No other shadows in the system."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The one easing: pot slide, tick landing, progress fill."
+      },
+      {
+        "name": "pot-slide",
+        "value": "transform 0.9s var(--ease-out-expo)",
+        "purpose": "The pot disc travels to the next stop when a round begins (.pot-marker)."
+      },
+      {
+        "name": "land",
+        "value": "0.5s var(--ease-out-expo), from scale(0.6) rotate(-12deg) opacity 0.3",
+        "purpose": "Paid tick, provisioning tick and round-complete plate landing (.pop)."
+      },
+      {
+        "name": "progress-fill",
+        "value": "width 700ms var(--ease-out-expo)",
+        "purpose": "Pot progress bar fill."
+      },
+      {
+        "name": "press",
+        "value": "transform: scale(0.98)",
+        "purpose": "Button press feedback."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none; transition: none",
+        "purpose": "All motion removed under prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px",
+        "purpose": "Tab bar moves from fixed bottom to sticky strip under the header; Bungee Shade pot numerals; larger headings; plate padding 20px."
+      },
+      {
+        "name": "lg",
+        "value": "1024px",
+        "purpose": "Circle screen widens to 72rem; Round tab splits 5fr / 7fr with a sticky pot column."
+      }
+    ],
+    "focus": {
+      "value": "outline: 3px solid #1c3faa; outline-offset: 2px; border-radius: 6px",
+      "onDark": "outline-color: #f5b700 inside .on-dark (route plate, tab bar, language toggle)"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ink with yellow lettering; the main action (Contribute, Launch demo, Start next round).",
+      "html": "<button class=\"ds-btn-primary\">Cotiser 379 FCFA</button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 16px;border-radius:12px;font:700 16px/1.25 system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;cursor:pointer;transition:background-color .15s,transform .15s;background:#141414;color:#f5b700;border:none}.ds-btn-primary:hover{background:#2a2a2a}.ds-btn-primary:active{transform:scale(.98)}.ds-btn-primary:focus-visible{outline:3px solid #1c3faa;outline-offset:2px}"
+    },
+    {
+      "name": "Sun Button",
+      "kind": "button",
+      "refersTo": "button-sun",
+      "description": "Yellow with a 2px ink rim; Pay all.",
+      "html": "<button class=\"ds-btn-sun\">Tout payer</button>",
+      "css": ".ds-btn-sun{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 16px;border-radius:12px;font:700 16px/1.25 system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;cursor:pointer;transition:background-color .15s,transform .15s;background:#f5b700;color:#141414;border:2px solid #141414}.ds-btn-sun:hover{background:#dfa500}.ds-btn-sun:active{transform:scale(.98)}.ds-btn-sun:focus-visible{outline:3px solid #1c3faa;outline-offset:2px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "White with a 2px ink rim; second-choice actions.",
+      "html": "<button class=\"ds-btn-secondary\">Démo : bhishi de Mumbai (₹)</button>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 16px;border-radius:12px;font:700 16px/1.25 system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;cursor:pointer;transition:background-color .15s,transform .15s;background:#fff;color:#141414;border:2px solid #141414}.ds-btn-secondary:hover{background:#fff0c2}.ds-btn-secondary:active{transform:scale(.98)}.ds-btn-secondary:focus-visible{outline:3px solid #1c3faa;outline-offset:2px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Route-blue underlined text action; underline turns yellow on hover.",
+      "html": "<button class=\"ds-btn-ghost\">+ Ajouter un membre</button>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 16px;border-radius:12px;font:700 16px/1.25 system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;cursor:pointer;transition:background-color .15s,transform .15s;background:transparent;border:none;color:#1c3faa;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px}.ds-btn-ghost:hover{text-decoration-color:#f5b700}.ds-btn-ghost:focus-visible{outline:3px solid #1c3faa;outline-offset:2px}"
+    },
+    {
+      "name": "Danger Button",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "White, red text and rim; destructive actions only.",
+      "html": "<button class=\"ds-btn-danger\">Supprimer le cercle</button>",
+      "css": ".ds-btn-danger{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 16px;border-radius:12px;font:700 16px/1.25 system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;cursor:pointer;transition:background-color .15s,transform .15s;background:#fff;color:#d7261e;border:2px solid #d7261e}.ds-btn-danger:hover{background:#fbe1de}.ds-btn-danger:active{transform:scale(.98)}.ds-btn-danger:focus-visible{outline:3px solid #1c3faa;outline-offset:2px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "White field, tan rim at rest, route blue on focus, label above.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">Nom du cercle</span><input class=\"ds-input\" placeholder=\"Tontine du marché HLM\"></label>",
+      "css": ".ds-field{display:block;font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;max-width:360px}.ds-field-label{display:block;margin-bottom:4px;font-size:14px;font-weight:600;color:#141414}.ds-input{width:100%;box-sizing:border-box;min-height:48px;border-radius:12px;border:2px solid #e6d9b0;background:#fff;padding:8px 12px;font:16px system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;color:#141414}.ds-input::placeholder{color:rgba(74,70,54,.7)}.ds-input:focus{outline:none;border-color:#1c3faa}"
+    },
+    {
+      "name": "Chips",
+      "kind": "chip",
+      "refersTo": "chip-good",
+      "description": "State chips: good (green), warn (yellow), info (paper).",
+      "html": "<span class=\"ds-chip ds-chip-good\">NWC</span> <span class=\"ds-chip ds-chip-warn\">demo</span> <span class=\"ds-chip ds-chip-info\">sats de test</span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;gap:4px;border-radius:6px;padding:2px 8px;font:700 14px/1.4 system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif}.ds-chip-good{background:#0f8a4b;color:#fff}.ds-chip-warn{background:#f5b700;color:#141414}.ds-chip-info{background:#fbf3dc;color:#141414;border:1px solid #e6d9b0}"
+    },
+    {
+      "name": "Enamel Plate",
+      "kind": "card",
+      "refersTo": "card-plate",
+      "description": "White plate, 2px ink rim, 14px corners, no shadow.",
+      "html": "<section class=\"ds-plate\"><h2 class=\"ds-plate-h\">SANTÉ DU CERCLE</h2><p class=\"ds-plate-p\">3 paiements sur 3 à l'heure.</p></section>",
+      "css": ".ds-plate{border:2px solid #141414;border-radius:14px;background:#fff;padding:16px;max-width:360px}.ds-plate-h{margin:0;font:400 18px/1.4 'Bungee', system-ui, sans-serif;color:#141414}.ds-plate-p{margin:8px 0 0;font:16px/1.5 system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;color:#141414}"
+    },
+    {
+      "name": "Tab Bar",
+      "kind": "nav",
+      "refersTo": "tab-bar",
+      "description": "Ink five-tab bar; active tab is a yellow block. Fixed to the bottom on phones, sticky strip under the header from 640px.",
+      "html": "<nav class=\"ds-tabs\"><button class=\"ds-tab ds-tab-on\">Tour</button><button class=\"ds-tab\">Enchère</button><button class=\"ds-tab\">Conseiller</button><button class=\"ds-tab\">Rapport</button><button class=\"ds-tab\">Groupe</button></nav>",
+      "css": ".ds-tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;background:#141414;padding:6px 8px;max-width:420px}.ds-tab{min-height:52px;border:none;border-radius:8px;background:transparent;color:rgba(255,253,245,.8);font:700 12px system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;cursor:pointer;transition:color .15s}.ds-tab:hover{color:#f5b700}.ds-tab-on,.ds-tab-on:hover{background:#f5b700;color:#141414}.ds-tab:focus-visible{outline:3px solid #f5b700;outline-offset:2px}"
+    },
+    {
+      "name": "Route Plate",
+      "kind": "custom",
+      "refersTo": "route-plate",
+      "description": "Signature: ultramarine route board; members are stops, the yellow pot disc lights the current stop and slides along the rail.",
+      "html": "<section class=\"ds-route\"><p class=\"ds-route-t\">TRAJET DE LA CAGNOTTE · TOUR 2 / 4</p><ol class=\"ds-route-ol\"><li class=\"ds-rail\" aria-hidden=\"true\"></li><li class=\"ds-stop\"><span class=\"ds-dot ds-done\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 6 9 17l-5-5\"/></svg></span><span class=\"ds-nm\">Awa</span></li><li class=\"ds-stop\" aria-current=\"step\"><span class=\"ds-dot ds-now\">M</span><span class=\"ds-nm ds-nm-now\">Moussa</span></li><li class=\"ds-stop\"><span class=\"ds-dot\">F</span><span class=\"ds-nm\">Fatou</span></li><li class=\"ds-stop\"><span class=\"ds-dot\">I</span><span class=\"ds-nm\">Ibrahima</span></li></ol></section>",
+      "css": ".ds-route{background:#1c3faa;color:#fffdf5;padding:12px 16px 16px;border-top:2px solid #141414;border-bottom:2px solid #141414;max-width:420px}.ds-route-t{margin:0;font:400 12.8px 'Bungee', system-ui, sans-serif;letter-spacing:.04em;color:#f5b700}.ds-route-ol{position:relative;display:flex;list-style:none;margin:8px 0 0;padding:0}.ds-rail{position:absolute;top:19px;left:12.5%;right:12.5%;height:4px;border-radius:4px;background:rgba(255,253,245,.45)}.ds-stop{position:relative;flex:1;display:flex;flex-direction:column;align-items:center}.ds-dot{position:relative;z-index:1;display:flex;align-items:center;justify-content:center;width:40px;height:40px;box-sizing:border-box;border-radius:50%;border:3px solid #fffdf5;background:#1c3faa;color:#fffdf5;font:400 15px 'Bungee', system-ui, sans-serif}.ds-done{background:#0f8a4b;color:#fff}.ds-now{background:#f5b700;color:#141414;border-color:#141414;box-shadow:0 0 0 5px rgba(245,183,0,.35);animation:ds-land .9s cubic-bezier(.16,1,.3,1)}.ds-nm{margin-top:6px;font:700 12px system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;color:#fffdf5}.ds-nm-now{color:#f5b700}@keyframes ds-land{from{transform:scale(.6) rotate(-12deg);opacity:.3}to{transform:none;opacity:1}}@media (prefers-reduced-motion:reduce){.ds-now{animation:none}}"
+    },
+    {
+      "name": "Contribution Row",
+      "kind": "custom",
+      "refersTo": "card-plate",
+      "description": "Painted receipt N° in Bungee, name, one-line amount · time · proof, then a painted tick or an ink Contribute button.",
+      "html": "<ul class=\"ds-rows\"><li class=\"ds-row\"><span class=\"ds-no\">N°0001</span><span class=\"ds-who\"><b>Moussa</b><small>379 FCFA · 19 nov., 11:05 · Preuve vérifiée</small></span><span class=\"ds-tick\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 6 9 17l-5-5\"/></svg></span></li><li class=\"ds-row\"><span class=\"ds-no\">—</span><span class=\"ds-who\"><b>Fatou</b><small>Solde 10 000 sats</small></span><button class=\"ds-pay\">Cotiser 379 FCFA</button></li></ul>",
+      "css": ".ds-rows{list-style:none;margin:0;padding:0;border:2px solid #141414;border-radius:14px;background:#fff;max-width:420px;font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif}.ds-row{display:flex;align-items:center;gap:12px;padding:12px}.ds-row+.ds-row{border-top:2px solid #e6d9b0}.ds-no{width:3.6rem;flex-shrink:0;font:400 11.2px 'Bungee', system-ui, sans-serif;color:#4a4636}.ds-who{flex:1;min-width:0;display:flex;flex-direction:column}.ds-who b{font-size:16.8px;color:#141414}.ds-who small{font-size:12.8px;color:#4a4636}.ds-tick{display:flex;align-items:center;justify-content:center;width:36px;height:36px;box-sizing:border-box;border-radius:50%;border:2px solid #141414;background:#0f8a4b;color:#fff;animation:ds-pop .5s cubic-bezier(.16,1,.3,1)}.ds-pay{min-height:44px;padding:8px 12px;border:none;border-radius:12px;background:#141414;color:#f5b700;font:700 14px system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;white-space:nowrap;cursor:pointer}.ds-pay:hover{background:#2a2a2a}.ds-pay:focus-visible{outline:3px solid #1c3faa;outline-offset:2px}@keyframes ds-pop{from{transform:scale(.6) rotate(-12deg);opacity:.3}to{transform:none;opacity:1}}@media (prefers-reduced-motion:reduce){.ds-tick{animation:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Painted Route Board",
+    "overview": "The pot travels the circle the way a Dakar car rapide or an Indian goods truck travels its route: every member is a stop, and a hand-painted board says who is next. The shell is car-rapide body yellow, the route plate is ultramarine enamel, the lettering is sign-writer Bungee in ink, and the work happens on a cream ground in plain system sans. It deliberately refuses the category default of a white wallet app with a balance card and one brand accent.\n\nDensity is that of an operating tool, not a brochure. One dense row per payment carries a painted receipt number, the name, amount, time and proof. Colour carries state, never decoration: green means paid or confirmed, red means the pot numerals or something late or wrong, the yellow disc means \"this stop, now\". There are no shadows; depth is a 2px ink rim, the way an enamel sign is edged.\n\nMotion is a single authored moment: the pot disc slides stop to stop when a round begins, and a painted tick lands when a share is paid. Everything else is instant, and reduced-motion users get a still board.",
+    "keyCharacteristics": [
+      "Yellow shell (header and title band), ultramarine route plate, cream work ground, ink bottom bar.",
+      "Bungee for the wordmark, headings, plate labels, receipt numbers and the pot numerals; system sans for everything read or tapped.",
+      "Enamel plates: white, 2px ink rim, 14px corners, no shadow.",
+      "The route plate is the signature object on every circle screen and on Home.",
+      "Thumb-first: 48px controls, a fixed bottom tab bar on phones."
+    ],
+    "rules": [
+      {
+        "name": "The State-Only Colour Rule",
+        "body": "Green appears only for paid, verified or \"good\"; red only for the pot numerals, overdue, errors and destructive actions. Neither is ever used as decoration or brand fill.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Lit Stop Rule",
+        "body": "The yellow pot disc marks the current stop and nothing else on the route plate. Done stops are green ticks, upcoming stops are blue discs with a cream outline.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Ink, One Ground Rule",
+        "body": "Data text is ink on cream or white; secondary data is muted. Colour does not tint data text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Sign-Writer Rule",
+        "body": "Bungee is for painted things only: wordmark, headings, plate labels, receipt numbers, avatar initials, stop initials and the pot. Never for paragraphs, inputs, buttons or metadata.",
+        "section": "typography"
+      },
+      {
+        "name": "The Sunlight Numeral Rule",
+        "body": "The pot is solid Bungee on phones for outdoor legibility; the painted drop-shade (Bungee Shade) only appears at 640px and up.",
+        "section": "typography"
+      },
+      {
+        "name": "The Unbroken Amount Rule",
+        "body": "Every amount is non-wrapping and tabular (`amt`), so \"379 FCFA\" never splits across lines.",
+        "section": "typography"
+      },
+      {
+        "name": "The Enamel Rim Rule",
+        "body": "Surfaces separate with a 2px ink border and a colour change, never a drop shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the shell yellow (sun) and the work ground cream; put every circle's route on an ultramarine route plate between 2px ink rules.",
+      "Do build containers as enamel plates: white, 2px ink border, 14px corners, no shadow.",
+      "Do set money in the pot as red Bungee numerals with the unit smaller in ink, and keep every amount non-wrapping and tabular.",
+      "Do make primary actions ink buttons with yellow lettering, at least 48px tall.",
+      "Do give every payment a painted receipt number (N° plus four digits) and keep amount, time and proof on one line.",
+      "Do keep the 3px route-blue focus ring (yellow on ink or blue surfaces via `on-dark`) on every interactive element.",
+      "Do keep motion to the pot slide and the tick landing, with `cubic-bezier(0.16, 1, 0.3, 1)`, and hold still under reduced motion."
+    ],
+    "donts": [
+      "Don't use green for anything that is not paid, verified or good, or red for anything that is not the pot, overdue, an error or a destructive action.",
+      "Don't put the yellow pot disc, or any second yellow highlight, on a stop other than the current one.",
+      "Don't set paragraphs, buttons, inputs or metadata in Bungee; it is sign lettering only.",
+      "Don't use Bungee Shade below 640px.",
+      "Don't add drop shadows to plates, rows or buttons.",
+      "Don't fall back to the white wallet app with a balance card and a single brand accent."
+    ]
+  }
+}
