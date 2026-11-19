@@ -8,7 +8,7 @@ Every culture has a savings circle. TontineZap runs tontines, bhishis and tandas
 
 ## Try it out (links)
 - Live demo: https://tontinezap.vercel.app
-- Source code: https://github.com/<your-username>/tontinezap
+- Source code: https://github.com/Sohamkhrt/tontinezap
 
 ## Video demo link
 <YouTube unlisted URL>
